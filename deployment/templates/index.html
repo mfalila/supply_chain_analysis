@@ -1,0 +1,40 @@
+<!--
+This file contains html instructions to build the home page of our web app
+Includes all fields we'll need on our web page
+Once the predict button is clicked a prediction will be made
+-->
+
+
+<!DOCTYPE html>
+<html >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link rel="stylesheet" href="static/style.css"> 
+</head>
+
+<body>
+ <div class="login">
+	<h1>Predict Inventory Backorder Analysis</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+    <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="national_inv" placeholder="National Inventory Level" required="required" />
+        <input type="text" name="in_transit_qty" placeholder="Quantity in Transit" required="required" />
+		<input type="text" name="lead_time" placeholder="Lead Time" required="required" />
+        <input type="text" name="forecast_3_month" placeholder="3 Month Forecast" required="required" />
+                            
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
+
