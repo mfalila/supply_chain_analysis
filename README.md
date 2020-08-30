@@ -99,10 +99,11 @@ The following features were added:
 For detailed code on feature engineering steps please see: **[3(b). Feature_Engineering.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/03.%20Data_Preprocessing/03(b).%20Feature_Engineering.ipynb)**
 
 - Evaluated learning curves to see whether the limit on model complexity and training dataset size is reached.
-
 The results showed that increasing the training dataset size further will not improve performance.
 
-
+<p align="center">
+  <img width="430" height="400" src="images/3. learning_curves.png">
+</p>
 
 
 
