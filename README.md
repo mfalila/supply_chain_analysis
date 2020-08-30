@@ -45,4 +45,4 @@ The dataset contains the following features:
 - rev_stop - Part risk flag
 - went_on_backorder – backorder indicator (Yes-backordered, No - Not backorder)
 
-For detailed code and dataset structure information see: **[01. File_Exploration.ipynb]()**
+For detailed code and dataset structure information see: **[01. File_Exploration.ipynb](notebooks/01. File_Exploration.ipynb)**
