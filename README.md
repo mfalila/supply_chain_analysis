@@ -73,6 +73,6 @@ For detailed code and charts on exploratory data analysis please see: **[02. Dat
 		- I noted the following:
 			- Items with low inventory, low lead times, low quantities in transit, and low supplier performance are significantly more likely to backorder.
 			- Items with a high sales forecast are significantly more likely to backorder.
-			* Please see: **[02(a). Data_Exploration_Numericals]()** and **[02(b) Data_Exploration_Categoricals]()**
+ - For detailed code on identifying hidden data relationships please see: **[02(a). Data_Exploration_Numericals]()** and **[02(b) Data_Exploration_Categoricals]()**
 		
 
