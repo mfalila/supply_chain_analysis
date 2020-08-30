@@ -17,7 +17,7 @@ Once satisfied with the model results, I’ll deploy the predictive solution as 
 
 # Data Collection
 
-The dataset is retrieved from Kaggle and contains 1.687 million records of inventory data for eight weeks prior to the week we want to predict backorder for.
+The dataset is retrieved from Kaggle and contains **1.687 million records of inventory data** for eight weeks prior to the week we want to predict backorder for.
 
 The dataset contains the following features:
 
