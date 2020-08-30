@@ -55,7 +55,7 @@ For detailed code and dataset structure information see: **[01. File_Exploration
 
 My goal here was to extract meaningful insights from our feature set that our model will use as signal for learning the general pattern of  typical backordered items, a process known as generalization. Generalization is what will help our final model perform well on unseen data. 
 
-To understand the data, I took the following steps and made the following observations:
+- To understand the data, I took the following steps and made the following observations:
 •	Ensured no duplicate samples, by verifying the dataset has only one record per “sku.”
 •	Explored missing data, outliers, and important feature correlations and handled them accordingly.
 •	Explored data distributions and noted a highly imbalanced dataset (only 6% instances of backorder).
