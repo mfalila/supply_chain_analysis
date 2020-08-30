@@ -104,6 +104,8 @@ The results showed that increasing the training dataset size further will not im
 <p align="center">
   <img width="430" height="400" src="images/3. learning_curves.png">
 </p>
+For detailed code and charts on learning curves please see: **[3(c). learning_Curves.ipynb]()**
+
 
 
 
