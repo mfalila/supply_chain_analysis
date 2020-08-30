@@ -117,7 +117,7 @@ The peak  performance of 82.07%  was reached when eight features were selected.
   <img width="600" height="250" src="images/4. sffs.png">
 </p>
 
-For detailed code and charts on feature selection please see: **[04(d). Feature_Selection_Wrapper_Methods.ipynb]()** and **[04(e). Feature_Selection_BestK.ipynb]()**
+For detailed code and charts on feature selection please see: **[03(d). Feature_Selection_Wrapper_Methods.ipynb]()** and **[03(e). Feature_Selection_BestK.ipynb]()**
 
 
 
