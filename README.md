@@ -96,7 +96,7 @@ The following features were added:
 	* “high_forecast”
 	* “low_perfomance”
 
-For detailed code on feature engineering steps please see: **[3(b). Feature_Engineering.ipynb]()**
+For detailed code on feature engineering steps please see: **[3(b). Feature_Engineering.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/03.%20Data_Preprocessing/03(b).%20Feature_Engineering.ipynb)**
 
 
 
