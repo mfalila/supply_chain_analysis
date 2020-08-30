@@ -25,12 +25,12 @@ The dataset contains the following features:
 - A unique identifier for each product
 - national_inv - Current inventory level for the product
     
-•	lead_time - Transit time for product (if available)
-•	in_transit_qty - Amount of product in transit from source
-•	forecast_3_month - Forecast sales for the next 3 months
-•	forecast_6_month - Forecast sales for the next 6 months
-•	forecast_9_month - Forecast sales for the next 9 months
-•	sales_1_month - Sales quantity for the prior 1 month time period
+- lead_time - Transit time for product (if available)
+- in_transit_qty - Amount of product in transit from source
+- forecast_3_month - Forecast sales for the next 3 months
+- forecast_6_month - Forecast sales for the next 6 months
+- forecast_9_month - Forecast sales for the next 9 months
+- sales_1_month - Sales quantity for the prior 1 month time period
 •	sales_3_month - Sales quantity for the prior 3 month time period
 •	sales_6_month - Sales quantity for the prior 6 month time period
 •	sales_9_month - Sales quantity for the prior 9 month time period
