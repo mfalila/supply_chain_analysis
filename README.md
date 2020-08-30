@@ -109,9 +109,13 @@ For detailed code and charts on learning curves please see: **[3(c). learning_Cu
 
 - Identified features that are more likely to impact backorder using Step Forward Feature Selection (SFFS) and SelectKBest feature selection python scikit learn methods.
 
+I noted that our model will only be able to use at least 5 but not more than 11 features for best performance.
 
+The peak  performance of 82.07%  was reached when eight features were selected. 
 
-
+<p align="center">
+  <img width="430" height="400" src="images/4. sffs.png">
+</p>
 
 
 
