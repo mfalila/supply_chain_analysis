@@ -71,6 +71,7 @@ For detailed code and charts on exploratory data analysis please see: **[02. Dat
 	1. Evaluated linear correlations in the dataset and removed multicollinear features to reduce our problem’s feature space. 
 	2. Performed statistical tests of significance to uncover important data signals for typical backordered items.
 		- I noted the following:
-			- Items with low inventory, low lead times, low quantities in transit, and low supplier performance are significantly more likely to backorder. 
+			- Items with low inventory, low lead times, low quantities in transit, and low supplier performance are significantly more likely to backorder.
+			- Items with a high sales forecast are significantly more likely to backorder.
 		
 
