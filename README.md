@@ -79,6 +79,7 @@ For detailed code and charts on exploratory data analysis please see: **[02(a). 
 # Data Preprocessing
 
 To prepare or data for modeling, I performed the following actions:
+
 	- Tested various methods for handling the data imbalance identified during data exploration and selected a to use a combination of under-sampling the majority sample and over-sampling the minority sample using the Synthetic Minority  Oversampling Technique (SMOTE).
 
 <p align="center">
@@ -88,13 +89,13 @@ To prepare or data for modeling, I performed the following actions:
 For detailed code and charts on handling the dataset imbalance please see: **[03(a). Data_Imbalance.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/03.%20Data_Preprocessing/03(a).%20Data_Imbalance.ipynb)**
 
 
-- Performed feature engineering to add important data relationships (signals) uncovered during EDA. 
+	- Performed feature engineering to add important data relationships (signals) uncovered during EDA. 
 The following features were added: 
--	‘‘low_inventory”
--	“low_lead_time”
--	“low_qty_intransit”
--	“high_forecast”
--	“low_perfomance”
+	* ‘‘low_inventory”
+	* “low_lead_time”
+	* “low_qty_intransit”
+	* “high_forecast”
+	* “low_perfomance”
 
 
 
