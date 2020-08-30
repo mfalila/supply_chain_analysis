@@ -77,3 +77,58 @@ For detailed code and charts on exploratory data analysis please see: **[02(a). 
 		
 
 # Data Preprocessing
+
+- To prepare or data for modeling, I performed the following actions:
+	- Tested various methods for handling the data imbalance identified during data exploration and selected a to use a combination of under-sampling the majority sample and over-sampling the minority sample using the Synthetic Minority  Oversampling Technique (SMOTE).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
