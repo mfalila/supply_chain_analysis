@@ -85,7 +85,7 @@ For detailed code and charts on exploratory data analysis please see: **[02(a). 
   <img width="430" height="400" src="images/balanced.png">
 </p>
 
-	-  For detailed code and charts on handling the dataset imbalance please see: notebooks/Data_Preprocessing/Data_Imbalance.ipynb
+	For detailed code and charts on handling the dataset imbalance please see: **[03(a). Data_Imbalance.ipynb]()**
 
 
 
