@@ -21,8 +21,7 @@ The dataset is retrieved from Kaggle and contains 1.687 million records of inven
 
 The dataset contains the following features:
 
-- sku 
-- A unique identifier for each product
+- sku - A unique identifier for each product
 - national_inv - Current inventory level for the product    
 - lead_time - Transit time for product (if available)
 - in_transit_qty - Amount of product in transit from source
