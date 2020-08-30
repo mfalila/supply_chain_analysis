@@ -9,7 +9,7 @@
 Effective supply chain management is an integral part of many businesses and essential to business success, customer satisfaction, and operational costs management. 
 The goal of a supply chain is to have an item in stock when a customer is ready to purchase the item, in the cheapest and fastest means possible.
 
-One of the common problems in supply chain management is the complexity associated with predicting backorder. Luckily with the current data growth and advances in predictive analytics and artificial intelligence, machine learning could rescue supply chain managers from this daunting task.
+One of the common challenges in supply chain management is the complexity associated with predicting backorder. Luckily with the current data growth and advances in predictive analytics and artificial intelligence, machine learning could rescue supply chain managers from this daunting task.
 
 In this project, I demonstrate using powerful python open source libraries and packages (pandas, scikit-learn, TensorFlow, and Keras) to build a model that predicts items that are more likely to backorder given some input features.
 
@@ -76,3 +76,4 @@ For detailed code and charts on exploratory data analysis please see: **[02(a). 
  - For detailed code on **identifying hidden data relationships** please see: **[02(b). Data_Exploration_Numericals](https://nbviewer.jupyter.org/github/mfalila/supply_chain_analysis/blob/43255a2a6eee7e45d5fc924f6cfa130b14e5e38b/03(a).%20Data_Exploration-Numericals.ipynb)** and **[02(c) Data_Exploration_Categoricals](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/02.%20Data_Exploration/02(c)%20Data_Exploration-Categoricals.ipynb)**
 		
 
+# Data Preprocessing
