@@ -59,4 +59,8 @@ My goal here was to extract meaningful insights from our feature set that our mo
 	1. Ensured no duplicate samples, by verifying the dataset has only one record per “sku.”
 	2. Explored missing data, outliers, and important feature correlations and handled them accordingly.
 	3. Explored data distributions and noted a highly imbalanced dataset (only 6% instances of backorder).
+	
+<p align="center">
+  <img width="230" height="200" src="images/1. data_imbalance.png">
+</p>
 
