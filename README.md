@@ -52,3 +52,5 @@ For detailed code and dataset structure information see: **[01. File_Exploration
 - I explored the data in two stages, to:
 	1. Understand the data, and
 	2. Understand the typical profile of an item that backordered in the past eight weeks.
+
+My goal here was to extract meaningful insights from our feature set that our model will use as signal for learning the general pattern of  typical backordered items, a process known as generalization. Generalization is what will help our final model perform well on unseen data.  
