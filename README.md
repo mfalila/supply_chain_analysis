@@ -96,6 +96,7 @@ The following features were added:
 	* “high_forecast”
 	* “low_perfomance”
 
+For detailed code on feature engineering steps please see: **[3(b). Feature_Engineering.ipynb]()**
 
 
 
