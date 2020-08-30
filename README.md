@@ -85,7 +85,16 @@ For detailed code and charts on exploratory data analysis please see: **[02(a). 
   <img width="430" height="400" src="images/balanced.png">
 </p>
 
-For detailed code and charts on handling the dataset imbalance please see: **[03(a). Data_Imbalance.ipynb]()**
+For detailed code and charts on handling the dataset imbalance please see: **[03(a). Data_Imbalance.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/03.%20Data_Preprocessing/03(a).%20Data_Imbalance.ipynb)**
+
+
+	- Performed feature engineering to add important data relationships (signals) uncovered during EDA. 
+The following features were added: 
+-	‘‘low_inventory”
+-	“low_lead_time”
+-	“low_qty_intransit”
+-	“high_forecast”
+-	“low_perfomance”
 
 
 
