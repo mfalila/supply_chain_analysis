@@ -61,6 +61,6 @@ My goal here was to extract meaningful insights from our feature set that our mo
 	3. Explored data distributions and noted a highly imbalanced dataset (only 6% instances of backorder).
 	
 <p align="center">
-  <img width="230" height="200" src="images/1. data_imbalance.png">
+  <img width="430" height="400" src="images/1. data_imbalance.png">
 </p>
 
