@@ -67,5 +67,9 @@ My goal here was to extract meaningful insights from our feature set that our mo
 
 For detailed code and charts on exploratory data analysis please see: **[02. Data_Exploration](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/02.%20Data_Exploration/02(a).%20Data_Exploration.ipynb)**
 
-			
+- To understand the typical profile of a backordered item, I
+	1. Evaluated linear correlations in the dataset and removed multicollinear features to reduce our problem’s feature space. 
+	2. Performed statistical tests of significance to uncover important data signals for typical backordered items.
+		- I noted the following:
+		
 
