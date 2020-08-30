@@ -64,7 +64,7 @@ My goal here was to extract meaningful insights from our feature set that our mo
   <img width="430" height="400" src="images/1. data_imbalance.png">
 </p>
 			iv. Performed a univariate outlier analysis and noted a high presence of possible data outliers in the dataset
-For detailed code and charts on exploratory data analysis please see: **[02. Exploring_Data]()**
+For detailed code and charts on exploratory data analysis please see: **[02. Data_Exploration](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/02.%20Data_Exploration/02(a).%20Data_Exploration.ipynb)**
 
 			
 
