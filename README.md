@@ -49,7 +49,6 @@ For detailed code and dataset structure information see: **[01. File_Exploration
 
 
 # Exploratory Data Analysis
-I explored the data in two stages, to:
-
+- I explored the data in two stages, to:
 	1. Understand the data, and
 	2. Understand the typical profile of an item that backordered in the past eight weeks.
