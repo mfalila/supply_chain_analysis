@@ -73,7 +73,7 @@ For detailed code and charts on exploratory data analysis please see: **[02(a). 
 		- I noted the following:
 			- Items with low inventory, low lead times, low quantities in transit, and low supplier performance are significantly more likely to backorder.
 			- Items with a high sales forecast are significantly more likely to backorder.
- - For detailed code on **identifying hidden data relationships** please see: **[02(b). Data_Exploration_Numericals](https://nbviewer.jupyter.org/github/mfalila/supply_chain_analysis/blob/43255a2a6eee7e45d5fc924f6cfa130b14e5e38b/03(a).%20Data_Exploration-Numericals.ipynb)** and **[02(c) Data_Exploration_Categoricals](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/02.%20Data_Exploration/02(c)%20Data_Exploration-Categoricals.ipynb)**
+ - For detailed code on **identifying hidden data relationships** please see: **[02(b). Data_Exploration_Numericals](https://nbviewer.jupyter.org/github/mfalila/supply_chain_analysis/blob/49627c66e1f3712bf27de6bab2974e6a5f3adf5b/notebooks/02.%20Data_Exploration/02(b).%20Data_Exploration-Numericals.ipynb)** and **[02(c) Data_Exploration_Categoricals](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/02.%20Data_Exploration/02(c)%20Data_Exploration-Categoricals.ipynb)**
 		
 
 # Data Preprocessing
