@@ -114,7 +114,7 @@ I noted that our model will only be able to use at least 5 but not more than 11 
 The peak  performance of 82.07%  was reached when eight features were selected. 
 
 <p align="center">
-  <img width="300" height="250" src="images/4. sffs.png">
+  <img width="600" height="250" src="images/4. sffs.png">
 </p>
 
 
