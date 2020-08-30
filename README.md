@@ -46,3 +46,9 @@ The dataset contains the following features:
 - went_on_backorder – backorder indicator (Yes-backordered, No - Not backorder)
 
 For detailed code and dataset structure information see: **[01. File_Exploration.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/01.%20File_Exploration.ipynb)**
+
+
+# Exploratory Data Analysis
+I explored the data in two stages, to:
+	1. Understand the data, and
+	2. Understand the typical profile of an item that backordered in the past eight weeks.
