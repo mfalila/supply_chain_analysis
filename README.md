@@ -64,7 +64,7 @@ My goal here was to extract meaningful insights from our feature set that our mo
 </p>
 			iv. Performed a univariate outlier analysis and noted a high presence of possible data outliers in the dataset
 
-For detailed code and charts on exploratory data analysis please see: **[02(a). Data_Exploration](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/02.%20Data_Exploration/02(a).%20Data_Exploration.ipynb)**
+For detailed code and charts on exploratory data analysis (please see: **[02(a). Data_Exploration](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/02.%20Data_Exploration/02(a).%20Data_Exploration.ipynb)**)
 
 - To understand the typical profile of a backordered item, I
 	1. Evaluated linear correlations in the dataset and removed multicollinear features to reduce our problem’s feature space. 
@@ -72,7 +72,8 @@ For detailed code and charts on exploratory data analysis please see: **[02(a). 
 		- I noted the following:
 			- Items with low inventory, low lead times, low quantities in transit, and low supplier performance are significantly more likely to backorder.
 			- Items with a high sales forecast are significantly more likely to backorder.
- - For detailed code on **identifying hidden data relationships** please see: **[02(b). Data_Exploration_Numericals](https://nbviewer.jupyter.org/github/mfalila/supply_chain_analysis/blob/d4e194e7a204364e010481568f647cf02681c3cc/notebooks/02.%20Data_Exploration/02(b).%20Data_Exploration-Numericals.ipynb)** and **[02(c) Data_Exploration_Categoricals](https://nbviewer.jupyter.org/github/mfalila/supply_chain_analysis/blob/734cbcfccf23ee94ed5f96fec403315bc62bd945/notebooks/02.%20Data_Exploration/02(c)%20Data_Exploration-Categoricals.ipynb)**
+
+For detailed code on **identifying hidden data relationships** please see: **[02(b). Data_Exploration_Numericals](https://nbviewer.jupyter.org/github/mfalila/supply_chain_analysis/blob/d4e194e7a204364e010481568f647cf02681c3cc/notebooks/02.%20Data_Exploration/02(b).%20Data_Exploration-Numericals.ipynb)** and **[02(c) Data_Exploration_Categoricals](https://nbviewer.jupyter.org/github/mfalila/supply_chain_analysis/blob/734cbcfccf23ee94ed5f96fec403315bc62bd945/notebooks/02.%20Data_Exploration/02(c)%20Data_Exploration-Categoricals.ipynb)**
 		
 
 # Data Preprocessing
