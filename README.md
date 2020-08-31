@@ -83,7 +83,7 @@ To prepare or data for modeling, I performed the following actions:
 - Tested various methods for handling the data imbalance identified during data exploration and selected a to use a combination of under-sampling the majority sample and over-sampling the minority sample using the Synthetic Minority  Oversampling Technique (SMOTE).
 
 <p align="center">
-  <img width="430" height="400" src="images/balanced.png">
+  <img width="630" height="600" src="images/balanced.png">
 </p>
 
 For detailed code and charts on handling the dataset imbalance please see: **[03(a). Data_Imbalance.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/03.%20Data_Preprocessing/03(a).%20Data_Imbalance.ipynb)**
@@ -102,7 +102,7 @@ For detailed code on feature engineering steps please see: **[3(b). Feature_Engi
 The results showed that increasing the training dataset size further will not improve performance.
 
 <p align="center">
-  <img width="430" height="400" src="images/3. learning_curves.png">
+  <img width="630" height="600" src="images/3. learning_curves.png">
 </p>
 
 For detailed code and charts on learning curves please see: **[3(c). learning_Curves.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/03.%20Data_Preprocessing/03(c).%20Learning_Curves.ipynb)**
@@ -114,7 +114,7 @@ I noted that our model will only be able to use at least 5 but not more than 11 
 The peak  performance of 82.07%  was reached when eight features were selected. 
 
 <p align="center">
-  <img width="600" height="250" src="images/4. sffs.png">
+  <img width="630" height="300" src="images/4. sffs.png">
 </p>
 
 For detailed code and charts on feature selection please see: **[03(d). Feature_Selection_Wrapper_Methods.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/03.%20Data_Preprocessing/03(d).%20Feature_Selection_Wrapper_Methods.ipynb)** and **[03(e). Feature_Selection_BestK.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/03.%20Data_Preprocessing/03(e).%20Feature_Selection_BestK.ipynb)**
