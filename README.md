@@ -166,7 +166,7 @@ For detailed code on final modeling please see: **[05. Final_Model.ipynb](https:
   <img width="630" height="600" src="images/8. cm3.png">
 </p>
 
-For detailed code and charts on the CNN model please see: **[6. Data_Modeling/cnn.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/06.%20cnn.ipynb)**
+For detailed code and charts on the CNN model please see: **[06. cnn.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/06.%20cnn.ipynb)**
 
 # Model Deployment
 
