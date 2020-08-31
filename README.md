@@ -114,7 +114,7 @@ I noted that our model will only be able to use at least 5 but not more than 11 
 The peak  performance of 82.07%  was reached when eight features were selected. 
 
 <p align="center">
-  <img width="630" height="450" src="images/4. sffs.png">
+  <img width="630" height="300" src="images/4. sffs.png">
 </p>
 
 For detailed code and charts on feature selection please see: **[03(d). Feature_Selection_Wrapper_Methods.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/03.%20Data_Preprocessing/03(d).%20Feature_Selection_Wrapper_Methods.ipynb)** and **[03(e). Feature_Selection_BestK.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/03.%20Data_Preprocessing/03(e).%20Feature_Selection_BestK.ipynb)**
