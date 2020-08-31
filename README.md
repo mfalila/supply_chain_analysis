@@ -126,9 +126,11 @@ To model the data, I implemented the following steps:
 - Evaluated baseline performance by preparing different baseline models using different criteria. 
 For example, I prepared a model that predicts randomly and observed that given the data we have, such a model could only correctly identify backorders less than 1% of the time.
 
+<p align="center">
+  <img width="430" height="400" src="images/5. cm1.png">
+</p>
 
-
-
+Our objective was therefore to improve from this baseline performance. (please see: **[4(a). Baseline_Model.ipynb]()**)
 
 
 
