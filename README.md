@@ -141,7 +141,7 @@ The analysis showed that the simpler logistic regression and linear discriminant
 	- penalty = “l2”
 	- c = 0.1
 
-- Handled data imbalance on our final model test set using same prior methods applied on the training set. (please see: **[4(d). balance_validation_set.ipynb]()**)
+- Handled data imbalance on our final model test set using same prior methods applied on the training set. (please see: **[4(d). balance_validation_set.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/04.%20Data_Modeling/04(d).%20balance_validation_set.ipynb)**)
 
 - Wrapped all steps above to a data preprocessing pipeline for data modeling.
 
