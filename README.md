@@ -132,11 +132,11 @@ For example, I prepared a model that predicts randomly and observed that given t
 
 Our objective was therefore to improve from this baseline performance. (please see: **[4(a). Baseline_Model.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/04.%20Data_Modeling/04(a).%20Baseline_Model.ipynb)**)
 
-- Performed model selection from a candidate pool of promising models by considering model complexity and training time compromise constraints.
+- Performed **model selection** from a candidate pool of promising models by considering model complexity and training time compromise constraints.
 The analysis showed that the simpler logistic regression and linear discriminant analysis (LDA) models will suit our purposes well.
 (please see: **[4(b).Model_Selection.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/04.%20Data_Modeling/04(b).%20Model_Selection.ipynb)** )
 
-- Performed hyperparameter optimization on our best candidate models and achieved a recall of 83.15% using a logistic regression model with the following hyperparameters:
+- Performed **hyperparameter optimization** on our best candidate models and achieved a recall of 83.15% using a logistic regression model with the following hyperparameters:
 	- solver = “liblinear”
 	- penalty = “l2”
 	- c = 0.1
