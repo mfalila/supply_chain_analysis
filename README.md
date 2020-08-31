@@ -127,7 +127,7 @@ To model the data, I implemented the following steps:
 For example, I prepared a model that predicts randomly and observed that given the data we have, such a model could only correctly identify backorders less than 1% of the time.
 
 <p align="center">
-  <img width="430" height="400" src="images/5. cm1.png">
+  <img width="630" height="600" src="images/5. cm1.png">
 </p>
 
 Our objective was therefore to improve from this baseline performance. (please see: **[4(a). Baseline_Model.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/04.%20Data_Modeling/04(a).%20Baseline_Model.ipynb)**)
@@ -146,7 +146,7 @@ The analysis showed that the simpler logistic regression and linear discriminant
 - Wrapped all steps above to a data preprocessing pipeline for data modeling.
 
 <p align="center">
-  <img width="430" height="450" src="images/6. preprocessing_pipeline.png">
+  <img width="630" height="650" src="images/6. preprocessing_pipeline.png">
 </p>
 
 # Results
@@ -164,7 +164,7 @@ For detailed code on final modeling please see: **[05. Final_Model.ipynb](https:
 - Trained and fitted a deep learning  convolutional neural network and obtained even higher performance (improved recall to 80.9% at 86.8% accuracy).
 
 <p align="center">
-  <img width="430" height="400" src="images/8. cm3.png">
+  <img width="630" height="600" src="images/8. cm3.png">
 </p>
 
 For detailed code and charts on the CNN model please see: **[6. Data_Modeling/cnn.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/06.%20cnn.ipynb)**
