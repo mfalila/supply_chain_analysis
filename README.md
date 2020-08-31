@@ -214,6 +214,20 @@ In addition, the following applications could be augmented to the project:
 - Integrating the API as part of a full supply management system where an order is automatically triggered if the probability of an item backordering exceeds some user defined threshold.
 	
 # References
+Corrales, D. C., Lasso, E., Ledezma, A., Corrales, J. C., Pinto, Singh, Villavicencio, Mayr-Schlegel, & Stamatatos. (2018). Feature selection for classification tasks: Expert knowledge or traditional methods? Journal of Intelligent & Fuzzy Systems, 34(5), 2825–2835. https://doi.org/10.3233/JIFS-169470
+
+Huan Liu, & Setiono, R. (1995). Chi2: feature selection and discretization of numeric attributes. Proceedings of 7th IEEE International Conference on Tools with Artificial Intelligence, 388.
+
+Nadim Nachar. (2008). The Mann-Whitney U: A Test for Assessing Whether Two Independent Samples Come from the Same Distribution. Tutorials in Quantitative Methods for Psychology, 4(1), 13–20.
+
+sklearn.discriminant_analysis.LinearDiscriminantAnalysis Retrieved August 30, 2020 from https://scikit-learn.org/stable/modules/generated/sklearn.discriminant_analysis.LinearDiscriminantAnalysis.html
+sklearn.feature_selection.SelectKBest. Retrieved August 30, 2020 from https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html
+
+sklearn.linear_model.LogisticRegression. Retrieved August 30, 2020 from https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html
+
+Yap, W. B., Rani, A. K., Rahman, A. A. H., Fong, S., Khairudin, Z., & Abdullah, N. N. (2014). An Application of Oversampling, Undersampling, Bagging and Boosting in Handling Imbalanced Datasets
+
+Zou, X., Feng, Y., Li, H., & Jiang, S. (2018). Improved over-sampling techniques based on sparse representation for imbalance problem. Intelligent Data Analysis, 22(5), 939–958. https://doi.org/10.3233/IDA-173534
 
 
 
