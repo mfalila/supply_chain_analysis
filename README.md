@@ -208,11 +208,10 @@ While I achieved impressive results, there is still room for improvement. For ex
 
 All these decisions are detected by the need to meet business objectives of the data science project.
 
-In addition, the following applications could be augmented to the project:
-	
-	-  Modifying the model’s API with a few lines of code to accept a JSON or csv inputs for batch predictions
-	-  Output probabilities associated with predictions to aid supply chain managers  take specific actions if an item has a probability to backorder above specified user defined thresholds.
-	- Integrating the API as part of a full supply management system where an order is automatically triggered if the probability of an item backordering exceeds some user defined threshold.
+In addition, the following applications could be augmented to the project:	
+-  Modifying the model’s API with a few lines of code to accept a JSON or csv inputs for batch predictions
+-  Output probabilities associated with predictions to aid supply chain managers  take specific actions if an item has a probability to backorder above specified user defined thresholds.
+- Integrating the API as part of a full supply management system where an order is automatically triggered if the probability of an item backordering exceeds some user defined threshold.
 	
 # References
 
