@@ -121,6 +121,10 @@ For detailed code and charts on feature selection please see: **[03(d). Feature_
 
 # Data Modeling
 
+To model the data, I implemented the following steps:
+
+- Evaluated baseline performance by preparing different baseline models using different criteria. 
+For example, I prepared a model that predicts randomly and observed that given the data we have, such a model could only correctly identify backorders less than 1% of the time.
 
 
 
