@@ -156,7 +156,7 @@ After preprocessing the data and selecting candidate hyperparameters on selected
 - Improved recall from less than 1% to 65.2% at 79.5% total accuracy with a simple logistic regression model.
 
 <p align="center">
-  <img width="430" height="400" src="images/7. cm2.png">
+  <img width="630" height="600" src="images/7. cm2.png">
 </p>
 
 For detailed code on final modeling please see: **[05. Final_Model.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/05.%20Final_Model.ipynb)**
