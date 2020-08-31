@@ -80,7 +80,7 @@ For detailed code and charts on exploratory data analysis please see: **[02(a). 
 
 To prepare or data for modeling, I performed the following actions:
 
-- Tested various methods for handling the data imbalance identified during data exploration and selected a to use a combination of under-sampling the majority sample and over-sampling the minority sample using the Synthetic Minority  Oversampling Technique (SMOTE).
+- Tested various methods for handling the data imbalance identified during data exploration and selected to use a combination of under-sampling the majority sample and over-sampling the minority sample using the Synthetic Minority  Oversampling Technique (SMOTE).
 
 <p align="center">
   <img width="630" height="600" src="images/balanced.png">
