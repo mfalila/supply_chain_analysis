@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="1600" height="200" src="images/bo_title.png">
+  <img width="1600" height="200" src="images/bo_titlev2.png">
 </p>
 
 
