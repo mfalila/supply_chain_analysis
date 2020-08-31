@@ -102,7 +102,7 @@ For detailed code on feature engineering steps please see: **[3(b). Feature_Engi
 The results showed that increasing the training dataset size further will not improve performance.
 
 <p align="center">
-  <img width="630" height="600" src="images/3. learning_curves.png">
+  <img width="630" height="400" src="images/3. learning_curves.png">
 </p>
 
 For detailed code and charts on learning curves please see: **[3(c). learning_Curves.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/03.%20Data_Preprocessing/03(c).%20Learning_Curves.ipynb)**
