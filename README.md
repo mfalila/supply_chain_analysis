@@ -159,10 +159,17 @@ After preprocessing the data and selecting candidate hyperparameters on selected
   <img width="430" height="400" src="images/7. cm2.png">
 </p>
 
+For detailed code on final modeling please see: **[05. Final_Model.ipynb]()**
 
+- Trained and fitted a deep learning  convolutional neural network and obtained even higher performance (improved recall to 80.9% at 86.8% accuracy).
 
+<p align="center">
+  <img width="430" height="400" src="images/8. cm3.png">
+</p>
 
+For detailed code and charts on the CNN model please see: **[7. Data_Modeling/cnn.ipynb]()**
 
+# Model Deployment
 
 
 
