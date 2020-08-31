@@ -2,9 +2,6 @@
   <img width="1600" height="200" src="images/bo_title.png">
 </p>
 
-<p align="center">
-  <img width="560" height="200" src="images/Global-Supply-Chain1290x860-1.jpg">
-</p>
 
 # Introduction
 
