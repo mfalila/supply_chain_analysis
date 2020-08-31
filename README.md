@@ -200,6 +200,20 @@ I met this objective by taking the following steps:
 - Employed statistical analysis using various python libraries to identify the number and names of features that could more likely help in identifying backordered items.
 - Built and deployed a final logistic regression model as a web application on Heroku PaaS.
 
+# Further Improvements and Applications
+
+While I achieved impressive results, there is still room for improvement. For example:
+	- Performing log transformations on features that were not gaussian like and observe if we might get performance boost.
+	- Building model ensembles.
+
+All these decisions are detected by the need to meet business objectives of the data science project.
+
+In addition, the following applications could be augmented to the project:
+	-  Modifying the model’s API with a few lines of code to accept a JSON or csv inputs for batch predictions
+	-  Output probabilities associated with predictions to aid supply chain managers  take specific actions if an item has a probability to backorder above specified user defined thresholds.
+	- Integrating the API as part of a full supply management system where an order is automatically triggered if the probability of an item backordering exceeds some user defined threshold.
+	
+# References
 
 
 
