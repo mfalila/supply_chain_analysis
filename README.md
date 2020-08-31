@@ -146,12 +146,8 @@ The analysis showed that the simpler logistic regression and linear discriminant
 - Wrapped all steps above to a data preprocessing pipeline for data modeling.
 
 <p align="center">
-  <img width="430" height="400" src="images/6. preprocessing_pipeline.PNG.png">
+  <img width="430" height="400" src="images/6. preprocessing_pipeline.png">
 </p>
-
-
-
-
 
 
 
