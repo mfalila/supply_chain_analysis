@@ -143,7 +143,8 @@ The analysis showed that the simpler logistic regression and linear discriminant
 
 - Handled data imbalance on our final model test set using same prior methods applied on the training set. (please see: **[4(c). balance_validation_set.ipynb]()**)
 
-- Wrapped all steps above to a data preprocessing pipeline to prepare the final model.
+- Wrapped all steps above to a data preprocessing pipeline for data modeling.
+
 
 
 
