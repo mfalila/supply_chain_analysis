@@ -187,7 +187,9 @@ To deploy our model, I took the following steps:
 
 The deployed model can be accessed from **[Backorder Predictor api](https://ml-backorder-predictor.herokuapp.com/)**
 
-For detailed deployment code please see: deployment
+For detailed deployment code please see: **[deployment](https://github.com/mfalila/supply_chain_analysis/tree/master/deployment)**
+
+# Conclusion
 
 
 
