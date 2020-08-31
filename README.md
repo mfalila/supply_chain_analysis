@@ -204,8 +204,8 @@ I met this objective by taking the following steps:
 # Further Improvements and Applications
 
 While I achieved impressive results, there is still room for improvement. For example:
-	- Performing log transformations on features that were not gaussian like and observe if we might get performance boost.
-	- Building model ensembles.
+ - Performing log transformations on features that were not gaussian like and observe if we might get performance boost.
+ - Building model ensembles.
 
 All these decisions are detected by the need to meet business objectives of the data science project.
 
