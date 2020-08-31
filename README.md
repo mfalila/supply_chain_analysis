@@ -159,7 +159,7 @@ After preprocessing the data and selecting candidate hyperparameters on selected
   <img width="430" height="400" src="images/7. cm2.png">
 </p>
 
-For detailed code on final modeling please see: **[05. Final_Model.ipynb]()**
+For detailed code on final modeling please see: **[05. Final_Model.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/05.%20Final_Model.ipynb)**
 
 - Trained and fitted a deep learning  convolutional neural network and obtained even higher performance (improved recall to 80.9% at 86.8% accuracy).
 
@@ -167,7 +167,7 @@ For detailed code on final modeling please see: **[05. Final_Model.ipynb]()**
   <img width="430" height="400" src="images/8. cm3.png">
 </p>
 
-For detailed code and charts on the CNN model please see: **[7. Data_Modeling/cnn.ipynb]()**
+For detailed code and charts on the CNN model please see: **[6. Data_Modeling/cnn.ipynb]()**
 
 # Model Deployment
 
