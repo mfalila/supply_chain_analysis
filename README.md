@@ -191,6 +191,14 @@ For detailed deployment code please see: **[deployment](https://github.com/mfali
 
 # Conclusion
 
+My project objective was to use python libraries to build a machine learning predictive solution that will identify items that are more likely to back order.
+
+I met this objective by taking the following steps:
+
+- Explored the dataset to understand the data file structure and the data structure.
+- Perform different tests of statistical significance to uncover hidden data relationships that our predictive model could learn from and leverage when predicting unseen instances.
+- Employed statistical analysis using various python libraries to identify the number and names of features that could more likely help in identifying backordered items.
+- Built and deployed a final logistic regression model as a web application on Heroku PaaS.
 
 
 
