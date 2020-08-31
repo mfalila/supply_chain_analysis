@@ -149,10 +149,15 @@ The analysis showed that the simpler logistic regression and linear discriminant
   <img width="430" height="450" src="images/6. preprocessing_pipeline.png">
 </p>
 
+# Results
 
+After preprocessing the data and selecting candidate hyperparameters on selected promising models obtained from analyses on prior steps, I fitted the selected models on the data and obtained the following results:
 
+- Improved recall from less than 1% to 65.2% at 79.5% total accuracy with a simple logistic regression model.
 
-
+<p align="center">
+  <img width="430" height="400" src="images/7. cm2.png">
+</p>
 
 
 
