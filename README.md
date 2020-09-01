@@ -78,7 +78,7 @@ For detailed code on **identifying hidden data relationships** please see: **[02
 
 # Data Preprocessing
 
-To prepare or data for modeling, I performed the following actions:
+To prepare for data for modeling, I performed the following actions:
 
 - Tested various methods for handling the data imbalance identified during data exploration and selected to use a combination of under-sampling the majority sample and over-sampling the minority sample using the Synthetic Minority  Oversampling Technique (SMOTE).
 
