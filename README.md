@@ -143,7 +143,7 @@ The analysis showed that the simpler logistic regression and linear discriminant
 
 For complete code and charts on hyperparameter optimization please see: **[04(c). model_hyperparameters.ipynb](https://nbviewer.jupyter.org/github/mfalila/supply_chain_analysis/blob/6b80773dccca3f67fd67bd21aced90f7053d8bd0/notebooks/04.%20Data_Modeling/04(c).%20model_hyperparameters.ipynb)**
 
-- Handled data imbalance on our final model test set using same prior methods applied on the training set. (please see: **[4(d). balance_validation_set.ipynb](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/04.%20Data_Modeling/04(d).%20balance_validation_set.ipynb)**)
+- Handled data imbalance on our final model test set using same prior methods applied on the training set. (please see: **[4(d). balance_validation_set.ipynb](https://nbviewer.jupyter.org/github/mfalila/supply_chain_analysis/blob/master/notebooks/04.%20Data_Modeling/04%28d%29.%20balance_validation_set.ipynb)**)
 
 - Wrapped all steps above to a data preprocessing pipeline for data modeling.
 
