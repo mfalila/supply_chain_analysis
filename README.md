@@ -64,7 +64,7 @@ My goal here was to extract meaningful insights from our feature set that our mo
 </p>
 			iv. Performed a univariate outlier analysis and noted a high presence of possible data outliers in the dataset
 
-For detailed code and charts on exploratory data analysis (please see: **[02(a). Data_Exploration](https://github.com/mfalila/supply_chain_analysis/blob/master/notebooks/02.%20Data_Exploration/02(a).%20Data_Exploration.ipynb)**)
+For detailed code and charts on exploratory data analysis (please see: **[02(a). Data_Exploration](https://nbviewer.jupyter.org/github/mfalila/supply_chain_analysis/blob/master/notebooks/02.%20Data_Exploration/02%28a%29.%20Data_Exploration.ipynb)**)
 
 - To understand the typical profile of a backordered item, I
 	1. Evaluated linear correlations in the dataset and removed multicollinear features to reduce our problem’s feature space. 
