@@ -185,10 +185,10 @@ To deploy our model, I took the following steps:
 Below is the model’s web API where a user can enter item information, hit predict, and the model returns a message stating whether the entered item will or will not backorder.
 
 <p align="center">
-  <img width="630" height="200" src="images/9. deployment.png">
+  <img width="630" height="200" src="images/9. deployment2.png">
 </p>
 
-The deployed model can be accessed from **[Backorder Predictor api](https://ml-backorder-predictor.herokuapp.com/)**
+The deployed model can be accessed from **[Backorder Predictor api](https://backorder-ml-app1.herokuapp.com/)**
 
 For detailed deployment code please see: **[deployment](https://github.com/mfalila/supply_chain_analysis/tree/master/deployment)**
 
