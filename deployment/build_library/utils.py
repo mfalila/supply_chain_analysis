@@ -18,9 +18,9 @@ from sklearn.impute import SimpleImputer
 class FeatureSelector(BaseEstimator, TransformerMixin):
     '''Custom transformer to extract columns passed as arguments'''
     
-    def __init__(self, feature_names):
+    def __init__(self, _feature_names):
         '''Class constructor'''
-        self._feature_names = feature_names
+        self._feature_names = _feature_names
         
     def fit(self, features_df, target = None):
         '''Returns self and nothing else'''
@@ -53,13 +53,13 @@ class CategoricalFeatsAdded(BaseEstimator, TransformerMixin):
     ''' A custom transformer to add engineered categorical features 
         Takes df, checks if 'national_inv' is negative and adds indicator variable
     '''
-    def __init__ (self, neg_inv_balance=True, low_inventory=True, \
-                  low_intransit=True, high_forecast=True):
+    def __init__ (self, _neg_inv_balance=True, _low_inventory=True, \
+                  _low_intransit=True, _high_forecast=True):
         ''' class constructor'''
-        self._neg_inv_balance = neg_inv_balance
-        self._low_inventory = low_inventory
-        self._low_intransit = low_intransit
-        self._high_forecast = high_forecast
+        self._neg_inv_balance = _neg_inv_balance
+        self._low_inventory = _low_inventory
+        self._low_intransit = _low_intransit
+        self._high_forecast = _high_forecast
      
     def fit( self, features_df, target = None):
         ''' Returns self, nothing else is done here'''
@@ -114,12 +114,13 @@ class CategoricalImputerTransformer(BaseEstimator, TransformerMixin):
     '''This transformer imputes missing values on categorical pipeline'''
     def __init__(self, features_df, target=None):
         self.features_df = features_df
+        self.target = target
         
     def fit(self, features_df, target=None):
         return self
     
     def transform(self, features_df, target=None):
-        imputer = SimpleImputer(missing_values = np.NaN,
+        imputer = SimpleImputer(missing_values = np.nan,
                                 strategy='most_frequent')
         
         # Fit data to the imputer object 
@@ -138,12 +139,13 @@ class SimpleImputerTransformer(BaseEstimator, TransformerMixin):
     '''This transformer imputes missing values'''
     def __init__(self, features_df, target=None):
         self.features_df = features_df
+        self.target = target
         
     def fit(self, features_df, target=None):
         return self
     
     def transform(self, features_df, target=None):
-        imputer = SimpleImputer(missing_values = np.NaN,
+        imputer = SimpleImputer(missing_values = np.nan,
                                 strategy='median')
         
         # Fit data to the imputer object 
@@ -190,6 +192,7 @@ class StandardScalerTransformer(BaseEstimator, TransformerMixin):
     ''' This transformer standardizes all numerical features'''
     def __init__(self, features_df, target=None):
         self.features_df = features_df
+        self.target = target
         
     def fit(self, features_df, target=None):
         return self
@@ -211,6 +214,7 @@ class DelUnusedCols(BaseEstimator, TransformerMixin):
     '''
     def __init__(self, features_df, target=None):
         self.features_df = features_df
+        self.target = target
         
     def fit(self, features_df, target=None):
         return self

@@ -31,8 +31,6 @@ clf_checkpoint = joblib.load('backorder_clf_checkpoint.joblib')
 clf_pipeline = clf_checkpoint['preprocessing']
 clf_model = clf_checkpoint['model']
 
-
-
 @app.route('/')
 def home():
     return render_template('index.html')
@@ -48,8 +46,8 @@ def predict():
     forecast = int(request.form['forecast_3_month'])
 
     features_dict = {'national_inv':[inventory],'in_transit_qty':[quantity],\
-                 'lead_time':[lead],'forecast_3_month':[forecast]}  
-        
+                 'lead_time':[lead],'forecast_3_month':[forecast]}
+
     features_df = pd.DataFrame(data=features_dict)
     final_features = clf_pipeline.fit_transform(features_df)
     prediction = clf_model.predict(final_features)
@@ -63,5 +61,4 @@ def predict():
                            'This item will {}'.format(output))
 
 if __name__ == '__main__':
-    app.run(debug=False)
-        
+    app.run(debug=True)
